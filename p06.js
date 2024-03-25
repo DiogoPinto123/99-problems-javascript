@@ -8,7 +8,6 @@ function isPalindrome(list) {
     console.error("The list parameter is not an Array.");
     return;
   }
-  var listLength = list.length;
   if (list.length === 0) {
     return false;
   }
